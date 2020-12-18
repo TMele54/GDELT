@@ -5,7 +5,7 @@ import pickle
 
 def get_file_list():
     gdelt_base_url = 'http://data.gdeltproject.org/events/'
-    python_files_path = '../static/data/python_files/'
+    python_files_path = '../../static/data/python_files/'
 
     # get the list of all the links on the gdelt file page
     page = requests.get(gdelt_base_url+'index.html')

@@ -3,9 +3,9 @@ import pandas as pd
 from pathlib import Path
 
 def create_data_frames():
-    python_files_path = '../static/data/python_files/'
+    python_files_path = '../../static/data/python_files/'
     gdelt_base_url = 'http://data.gdeltproject.org/events/'
-    local_path = '../static/data/GDELT/'
+    local_path = '../../static/data/GDELT/'
 
     fips_country_code = 'US'
 
