@@ -2,8 +2,7 @@ import requests
 import lxml.html as lh
 import pickle
 
-
-def get_file_list():
+def get_file_list(total):
     gdelt_base_url = 'http://data.gdeltproject.org/events/'
     python_files_path = '../../static/data/python_files/'
 
@@ -19,6 +18,6 @@ def get_file_list():
         print(file)
 
     with open(python_files_path+'file_list.pkl', 'wb') as handle:
-        pickle.dump(file_list, handle, protocol=pickle.HIGHEST_PROTOCOL)
+        pickle.dump(file_list[0:total], handle, protocol=pickle.HIGHEST_PROTOCOL)
 
     print("a_id_files.py has completed writing file lists to ", python_files_path+"file_list.pkl")

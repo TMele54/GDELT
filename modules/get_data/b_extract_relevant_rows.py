@@ -18,21 +18,21 @@ def download_raw_tsvs():
     with open(python_files_path+'file_list.pkl', 'rb') as handle:
         file_list = pickle.load(handle)
 
-    for compressed_file in file_list[infilecounter:]:
-        print(compressed_file)
+    for i, compressed_file in enumerate(file_list[infilecounter:]):
+        print(compressed_file,i)
 
         # if we dont have the compressed file stored locally, go get it. Keep trying if necessary.
         while not os.path.isfile(local_path + compressed_file):
-            print('Downloading')
+            print('Downloading',i)
             urllib.request.urlretrieve(url=gdelt_base_url + compressed_file, filename=local_path + compressed_file)
 
         # extract the contents of the compressed file to a temporary directory
-        print('Extracting')
+        print('Extracting',i)
         z = zipfile.ZipFile(file=local_path + compressed_file, mode='r')
         z.extractall(path=local_path + 'tmp/')
 
         # parse each of the csv files in the working directory,
-        print('Parsing')
+        print('Parsing',i)
         for infile_name in glob.glob(local_path + 'tmp/*'):
             outfile_name = local_path + 'country/' + fips_country_code + '%04i.tsv' % outfilecounter
 

@@ -1,4 +1,6 @@
 from bs4 import BeautifulSoup
+from bs4.element import Comment
+import urllib.request
 import requests
 import time
 import pandas as pd
@@ -7,6 +9,18 @@ import pyautogui
 import numpy as np
 
 json_file_path = '../../static/data/url_responses/'
+
+def tag_visible(element):
+    if element.parent.name in ['style', 'script', 'head', 'title', 'meta', '[document]']:
+        return False
+    if isinstance(element, Comment):
+        return False
+    return True
+def text_from_html(body):
+    soup = BeautifulSoup(body, 'html.parser')
+    texts = soup.findAll(text=True)
+    visible_texts = filter(tag_visible, texts)
+    return u" ".join(t.strip() for t in visible_texts)
 
 def query_pages(pth, file_name):
     with open(pth+file_name, "r") as F:
@@ -25,12 +39,12 @@ def query_pages(pth, file_name):
                     body = soup.find_all('body')
                     ps = body[0].find_all('p')
                     spans = body[0].find_all('span')
-
+                    print(ps)
                     x = ps+spans
 
                     # Unifying the paragraphs
                     list_paragraphs = []
-                    for p in np.arange(0, len(x)):
+                    for p in np.arange(0, len(ps)):
                         paragraph = x[p].get_text()
                         list_paragraphs.append(paragraph)
                         final_article = " ".join(list_paragraphs)
@@ -42,16 +56,17 @@ def query_pages(pth, file_name):
 
                 outs.append(js)
             else:
-                print(URL)
+                pass
 
             # input("CONTINUE?")
 
         F.close()
     return outs
 
-files = ["vibegron_test.json", "relugolix_test.json"]
+files = ["crypto_test.json"]
 
 pyautogui.hotkey('ctrl', 'l')
+
 for file_name in files:
     print("Processing File", file_name)
     print("*"*184)

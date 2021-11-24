@@ -10,12 +10,11 @@ dfPath = "../../static/data/python_files/dataframes/backupUS_0.pickle"
 # Open Files
 df0 = pd.read_pickle(dfPath)
 
-
 # Display
-print(df0.head())
+#print(df0.head())
 
-for c in df0.columns:
-    print('"'+c+'",')
+#for c in df0.columns:
+#    print('"'+c+'",')
 
 fields = [
                 "SQLDATE", "MonthYear", "Year", "FractionDate", "Actor1Code", "Actor1Name", "Actor1CountryCode",
@@ -30,13 +29,14 @@ fields = [
                 "ActionGeo_Type", "ActionGeo_FullName", "ActionGeo_CountryCode", "ActionGeo_ADM1Code", "ActionGeo_Lat",
                 "ActionGeo_Long", "ActionGeo_FeatureID", "DATEADDED", "SOURCEURL"
         ]
-print("*"*184)
+
+
+print("*"*100)
 subs = df0.iloc[:1]
 
-print("*"*184)
+print("*"*100)
 print("Total Records ",len(df0.index))
-
-print("*"*184)
+print("*"*100)
 df = df0
 # Remove Nulls
 #df = df0[df0.Actor1Name.notnull()]
@@ -56,16 +56,18 @@ df = df0
 #A2 = df[df['Actor1Name'].str.contains("drug", na=False)]
 
 
-terms = ["pharma"]
-lnks=[]
-for term in terms:
-    S = df[df['SOURCEURL'].str.contains(term, na=False)]
-    for item in S["SOURCEURL"]:
-        if not any(x in item for x in ['corona', 'covid', 'vaccine', 'pandemic', 'virus']):
-            lnks.append(item)
-            print(item)
+terms = ["crypto"]
+title = ['shiba', 'bitcoin', 'ethereum', 'dogecoin', 'crypto.com']
 
-    print("F"*184)
-    print(term+"----->", len(S.index))
-    print(term+"set ----->", len(set(lnks)))
+lnks=[]
+
+for url_term in terms:
+    S = df[df['SOURCEURL'].str.contains(url_term, na=False)]
+    for item in S["SOURCEURL"]:
+        if not any(x in item for x in title):
+            lnks.append(item)
+
+    print("\\"*100)
+    print(url_term + "----->", len(S.index))
+    print(url_term + "-set (unique) ----->", len(set(lnks)))
 

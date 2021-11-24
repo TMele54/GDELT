@@ -10,7 +10,7 @@ def create_data_frames():
     fips_country_code = 'US'
 
     # Get the GDELT field names from a helper file
-    colnames = pd.read_excel('../static/data/python_files/header/CSV.header.fieldids.xlsx', sheet_name='Sheet1', index_col='Column ID', parse_col=1)['Field Name']
+    colnames = pd.read_excel('../../static/data/python_files/header/CSV.header.fieldids.xlsx', sheet_name='Sheet1', index_col='Column ID')['Field Name']
 
     # Build DataFrames from each of the intermediary files
     files = glob.glob(local_path + 'country/' + fips_country_code + '*')
@@ -21,9 +21,9 @@ def create_data_frames():
         return (l[i:i+n] for i in range(0, len(l), n))
 
     x=0
-    for cnk in chunks(files, 150):
+    for cnk in chunks(files, 2):
         print("Processing file Chunk", x)
-        my_file = Path(python_files_path + "dataframes"+"/" + 'backup' + fips_country_code + "_" + str(x) +'.pickle')
+        my_file = Path(python_files_path + "dataframes"+"\\" + 'backup' + fips_country_code + "_" + str(x) +'.pickle')
         if my_file.is_file():
             pass
         else:
@@ -42,5 +42,3 @@ def create_data_frames():
         x += 1
 
     print("c_files_to_pandas.py has completed writing dataframes to ",  python_files_path+"dataframes")
-
-create_data_frames()
