@@ -2,9 +2,9 @@ import requests
 import lxml.html as lh
 import pickle
 
-def get_file_list(total):
+def get_file_list(total, verb):
     gdelt_base_url = 'http://data.gdeltproject.org/events/'
-    python_files_path = '../../static/data/python_files/'
+    python_files_path = 'static/data/python_files/'
 
     # get the list of all the links on the gdelt file page
     page = requests.get(gdelt_base_url+'index.html')
@@ -14,8 +14,9 @@ def get_file_list(total):
     # separate out those links that begin with four digits
     file_list = [x for x in link_list if str.isdigit(x[0:4])]
 
-    for file in file_list:
-        print(file)
+    if verb:
+        for file in file_list:
+            print(file)
 
     with open(python_files_path+'file_list.pkl', 'wb') as handle:
         pickle.dump(file_list[0:total], handle, protocol=pickle.HIGHEST_PROTOCOL)

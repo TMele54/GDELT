@@ -8,7 +8,7 @@ import csv, json
 import pyautogui
 import numpy as np
 
-json_file_path = '../../static/data/url_responses/'
+json_file_path = 'static/data/url_responses/'
 
 def tag_visible(element):
     if element.parent.name in ['style', 'script', 'head', 'title', 'meta', '[document]']:

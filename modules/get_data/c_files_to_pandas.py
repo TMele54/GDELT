@@ -3,14 +3,14 @@ import pandas as pd
 from pathlib import Path
 
 def create_data_frames():
-    python_files_path = '../../static/data/python_files/'
+    python_files_path = 'static/data/python_files/'
     gdelt_base_url = 'http://data.gdeltproject.org/events/'
-    local_path = '../../static/data/GDELT/'
+    local_path = 'static/data/GDELT/'
 
     fips_country_code = 'US'
 
     # Get the GDELT field names from a helper file
-    colnames = pd.read_excel('../../static/data/python_files/header/CSV.header.fieldids.xlsx', sheet_name='Sheet1', index_col='Column ID')['Field Name']
+    colnames = pd.read_excel('static/data/python_files/header/CSV.header.fieldids.xlsx', sheet_name='Sheet1', index_col='Column ID')['Field Name']
 
     # Build DataFrames from each of the intermediary files
     files = glob.glob(local_path + 'country/' + fips_country_code + '*')

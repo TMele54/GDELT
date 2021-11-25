@@ -27,7 +27,7 @@ for Q in qs:
     response = requests.get(url)
     json_data = json.loads(response.text)
 
-    with open("../../static/data/url_responses/"+Q+"_test.json", "w") as F:
+    with open("static/data/url_responses/"+Q+"_test.json", "w") as F:
         json.dump(json_data, F, indent=4)
 
     for j in json_data["articles"]:

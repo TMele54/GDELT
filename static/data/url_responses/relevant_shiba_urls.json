@@ -1,0 +1,506 @@
+[
+    {
+        "url": "https://www.straitstimes.com/business/companies-markets/singapore-based-toshiba-shareholder-objects-to-break-up",
+        "date": "20211124",
+        "mentions": "8",
+        "sources": "2",
+        "articles": "8",
+        "tone": "-1.14205130122915"
+    },
+    {
+        "url": "https://www.straitstimes.com/business/companies-markets/singapore-based-toshiba-shareholder-objects-to-break-up",
+        "date": "20211124",
+        "mentions": "10",
+        "sources": "1",
+        "articles": "10",
+        "tone": "-2.35081374321881"
+    },
+    {
+        "url": "https://www.fool.com/investing/2021/11/04/invested-100-in-shiba-inu-15-months-how-much-now/?source=iedfolrf0000001",
+        "date": "20211104",
+        "mentions": "6",
+        "sources": "1",
+        "articles": "6",
+        "tone": "0.54054054054054"
+    },
+    {
+        "url": "https://www.fool.com/investing/2021/11/04/invested-100-in-shiba-inu-15-months-how-much-now/?source=iedfolrf0000001",
+        "date": "20211104",
+        "mentions": "4",
+        "sources": "1",
+        "articles": "4",
+        "tone": "0.54054054054054"
+    },
+    {
+        "url": "https://techxplore.com/news/2021-11-shiba-inu-dogecoin-dog-cryptocurrency.html",
+        "date": "20211025",
+        "mentions": "6",
+        "sources": "1",
+        "articles": "6",
+        "tone": "-0.11904761904762"
+    },
+    {
+        "url": "https://techxplore.com/news/2021-11-shiba-inu-dogecoin-dog-cryptocurrency.html",
+        "date": "20211025",
+        "mentions": "6",
+        "sources": "1",
+        "articles": "6",
+        "tone": "-0.11904761904762"
+    },
+    {
+        "url": "https://techxplore.com/news/2021-11-shiba-inu-dogecoin-dog-cryptocurrency.html",
+        "date": "20211101",
+        "mentions": "5",
+        "sources": "1",
+        "articles": "5",
+        "tone": "-0.11904761904762"
+    },
+    {
+        "url": "https://www.finanznachrichten.de/nachrichten-2021-10/54351242-cryptoshib-shiba-inu-and-safemoon-s-competitor-bitrise-coin-breaks-dollar-150-million-market-cap-296.htm",
+        "date": "20211031",
+        "mentions": "4",
+        "sources": "1",
+        "articles": "4",
+        "tone": "2.10803689064559"
+    },
+    {
+        "url": "https://www.finanznachrichten.de/nachrichten-2021-10/54351242-cryptoshib-shiba-inu-and-safemoon-s-competitor-bitrise-coin-breaks-dollar-150-million-market-cap-296.htm",
+        "date": "20211031",
+        "mentions": "4",
+        "sources": "1",
+        "articles": "4",
+        "tone": "2.10803689064559"
+    },
+    {
+        "url": "https://www.finanznachrichten.de/nachrichten-2021-10/54345382-cryptoshib-shiba-inu-dogecoin-coinmarketcap-trending-is-bitrise-next-296.htm",
+        "date": "20211029",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "2.34806629834254"
+    },
+    {
+        "url": "https://www.finanznachrichten.de/nachrichten-2021-10/54345382-cryptoshib-shiba-inu-dogecoin-coinmarketcap-trending-is-bitrise-next-296.htm",
+        "date": "20211029",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "2.34806629834254"
+    },
+    {
+        "url": "https://www.businessinsider.in/cryptocurrency/news/shiba-inu-coin-is-one-spot-away-from-replacing-dogecoin-as-the-10th-biggest-cryptocurrency-as-shibarmy-rallies-bulls/articleshow/87315432.cms",
+        "date": "20211028",
+        "mentions": "348",
+        "sources": "87",
+        "articles": "348",
+        "tone": "-2.67069183184722"
+    },
+    {
+        "url": "https://www.businessinsider.in/cryptocurrency/news/shiba-inu-coin-is-one-spot-away-from-replacing-dogecoin-as-the-10th-biggest-cryptocurrency-as-shibarmy-rallies-bulls/articleshow/87315432.cms",
+        "date": "20211028",
+        "mentions": "31",
+        "sources": "8",
+        "articles": "28",
+        "tone": "1.75544314559475"
+    },
+    {
+        "url": "https://www.ndtv.com/business/shiba-inus-100-jump-intensifies-calls-for-robinhood-crypto-listing-2590657",
+        "date": "20211028",
+        "mentions": "10",
+        "sources": "1",
+        "articles": "10",
+        "tone": "-1.1600928074246"
+    },
+    {
+        "url": "https://www.ndtv.com/business/shiba-inus-100-jump-intensifies-calls-for-robinhood-crypto-listing-2590657",
+        "date": "20211028",
+        "mentions": "3",
+        "sources": "1",
+        "articles": "3",
+        "tone": "-1.1600928074246"
+    },
+    {
+        "url": "https://techstory.in/shiba-inu-is-all-the-rage-on-twitter-right-now/",
+        "date": "20211028",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "0.57273768613975"
+    },
+    {
+        "url": "https://techstory.in/shiba-inu-is-all-the-rage-on-twitter-right-now/",
+        "date": "20211028",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "0.57273768613975"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "5",
+        "sources": "1",
+        "articles": "5",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "6",
+        "sources": "1",
+        "articles": "6",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "6",
+        "sources": "1",
+        "articles": "6",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "4",
+        "sources": "1",
+        "articles": "4",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "10",
+        "sources": "1",
+        "articles": "10",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "4",
+        "sources": "1",
+        "articles": "4",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "10",
+        "sources": "1",
+        "articles": "10",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.foxnews.com/politics/trump-backed-senate-challenger-tshibaka-murkowski",
+        "date": "20211120",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "0.22026431718061"
+    },
+    {
+        "url": "https://www.heraldscotland.com/news/19728599.buy-shiba-inu-uk/",
+        "date": "20211119",
+        "mentions": "6",
+        "sources": "1",
+        "articles": "6",
+        "tone": "0.84146751935375"
+    },
+    {
+        "url": "https://www.heraldscotland.com/news/19728599.buy-shiba-inu-uk/",
+        "date": "20211119",
+        "mentions": "4",
+        "sources": "1",
+        "articles": "4",
+        "tone": "0.84146751935375"
+    },
+    {
+        "url": "https://www.anchoragepress.com/columnists/tshibaka-s-claims-about-our-senate-seat-are-a-fraud/article_28ed5d4c-473d-11ec-828a-e3dd6f2c28a0.html",
+        "date": "20211117",
+        "mentions": "4",
+        "sources": "1",
+        "articles": "4",
+        "tone": "-0.85889570552147"
+    },
+    {
+        "url": "https://www.anchoragepress.com/columnists/tshibaka-s-claims-about-our-senate-seat-are-a-fraud/article_28ed5d4c-473d-11ec-828a-e3dd6f2c28a0.html",
+        "date": "20211117",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "-0.85889570552147"
+    },
+    {
+        "url": "https://www.anchoragepress.com/columnists/tshibaka-s-claims-about-our-senate-seat-are-a-fraud/article_28ed5d4c-473d-11ec-828a-e3dd6f2c28a0.html",
+        "date": "20211117",
+        "mentions": "91",
+        "sources": "24",
+        "articles": "91",
+        "tone": "-6.53031744512507"
+    },
+    {
+        "url": "https://www.anchoragepress.com/columnists/tshibaka-s-claims-about-our-senate-seat-are-a-fraud/article_28ed5d4c-473d-11ec-828a-e3dd6f2c28a0.html",
+        "date": "20211117",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "-0.85889570552147"
+    },
+    {
+        "url": "https://www.anchoragepress.com/columnists/tshibaka-s-claims-about-our-senate-seat-are-a-fraud/article_28ed5d4c-473d-11ec-828a-e3dd6f2c28a0.html",
+        "date": "20211117",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "-0.85889570552147"
+    },
+    {
+        "url": "https://www.anchoragepress.com/columnists/tshibaka-s-claims-about-our-senate-seat-are-a-fraud/article_28ed5d4c-473d-11ec-828a-e3dd6f2c28a0.html",
+        "date": "20211117",
+        "mentions": "4",
+        "sources": "1",
+        "articles": "4",
+        "tone": "-0.85889570552147"
+    },
+    {
+        "url": "https://www.anchoragepress.com/columnists/tshibaka-s-claims-about-our-senate-seat-are-a-fraud/article_28ed5d4c-473d-11ec-828a-e3dd6f2c28a0.html",
+        "date": "20211117",
+        "mentions": "3",
+        "sources": "1",
+        "articles": "3",
+        "tone": "-0.85889570552147"
+    },
+    {
+        "url": "https://www.wraltechwire.com/2021/11/16/toshiba-to-hire-as-many-as-300-within-the-next-year-ceo-says-at-tbj-event/",
+        "date": "20211109",
+        "mentions": "10",
+        "sources": "1",
+        "articles": "10",
+        "tone": "2.29885057471265"
+    },
+    {
+        "url": "https://www.wraltechwire.com/2021/11/16/toshiba-to-hire-as-many-as-300-within-the-next-year-ceo-says-at-tbj-event/",
+        "date": "20211116",
+        "mentions": "5",
+        "sources": "1",
+        "articles": "5",
+        "tone": "2.29885057471265"
+    },
+    {
+        "url": "https://invezz.com/news/2021/11/11/shiba-inu-price-prediction-shib-could-soon-explode-higher/",
+        "date": "20211111",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "0.76628352490422"
+    },
+    {
+        "url": "https://invezz.com/news/2021/11/11/shiba-inu-price-prediction-shib-could-soon-explode-higher/",
+        "date": "20211111",
+        "mentions": "1",
+        "sources": "1",
+        "articles": "1",
+        "tone": "0.76628352490422"
+    },
+    {
+        "url": "https://www.thestar.com.my/business/business-news/2021/11/10/toshiba-to-split-business-into-three",
+        "date": "20211110",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "-4.02298850574712"
+    },
+    {
+        "url": "https://www.theverge.com/2021/11/8/22771149/amc-shiba-inu-cryptocurrency-bitcoin-litecoin-dogecoin",
+        "date": "20201109",
+        "mentions": "6",
+        "sources": "1",
+        "articles": "6",
+        "tone": "2.17785843920145"
+    },
+    {
+        "url": "https://www.theverge.com/2021/11/8/22771149/amc-shiba-inu-cryptocurrency-bitcoin-litecoin-dogecoin",
+        "date": "20201109",
+        "mentions": "4",
+        "sources": "1",
+        "articles": "4",
+        "tone": "2.17785843920145"
+    },
+    {
+        "url": "https://www.theverge.com/2021/11/8/22771149/amc-shiba-inu-cryptocurrency-bitcoin-litecoin-dogecoin",
+        "date": "20211109",
+        "mentions": "6",
+        "sources": "1",
+        "articles": "6",
+        "tone": "2.17785843920145"
+    },
+    {
+        "url": "https://www.theverge.com/2021/11/8/22771149/amc-shiba-inu-cryptocurrency-bitcoin-litecoin-dogecoin",
+        "date": "20211109",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "2.17785843920145"
+    },
+    {
+        "url": "https://www.theverge.com/2021/11/8/22771149/amc-shiba-inu-cryptocurrency-bitcoin-litecoin-dogecoin",
+        "date": "20211109",
+        "mentions": "2",
+        "sources": "1",
+        "articles": "2",
+        "tone": "2.17785843920145"
+    },
+    {
+        "url": "https://menafn.com/1103125875/Toshiba-to-split-business-into-three-report&source=140",
+        "date": "20211109",
+        "mentions": "22",
+        "sources": "9",
+        "articles": "22",
+        "tone": "-4.04200609290577"
+    }
+]
